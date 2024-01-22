@@ -1,0 +1,121 @@
+.foot{
+    margin-top: 20%;
+    margin-left: 42%;
+}
+.thumbmark{
+    height: 80%;
+    width: 50%;
+    margin-left: 27%;
+   
+}
+
+.main-doc{
+    height: 112%;
+    width: 180%;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nightday{
+    border: 2px solid blue;
+}
+
+.form-group{
+    width: 150%;
+}
+
+.formcustom{
+    margin-left: 30%;
+}
+.btn{
+    /* margin-left: %; */
+    width: 100%;
+}
+
+@media(width<992px){
+    .main-doc{
+        display: none;
+    }
+}
+.formgrp{
+    margin-left: -15%;
+}
+.moon{
+    margin-left:85%;
+    margin-top: 5%;
+}
+.uname{
+    position: relative;
+}
+.uicon{
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 90%;
+    z-index: 999;
+}
+
+.mrg{
+    margin-left: 5%;
+    display: block;
+}
+
+@media(width<1040){
+    .uicon{
+        position: absolute;
+        margin-top: -37px;
+        margin-left: 85%;
+        z-index: 999;
+    }
+}
+@media(width<1360){
+    .uicon{
+        position: absolute;
+        margin-top: -37px;
+        margin-left: 80%;
+        z-index: 999;
+    }
+    .thumbmark{
+        margin-left: 0%;
+    }
+}
+@media(width<590){
+    .uicon{
+        position: absolute;
+        margin-top: -37px;
+        margin-left: 75%;
+        z-index: 999;
+    }
+}
+@media(width<550){
+    .uicon{
+        position: absolute;
+        margin-top: -37px;
+        margin-left: 75%;
+        z-index: 999;
+    }
+}
+
+@media(width<485){
+    .uicon{
+        position: absolute;
+        margin-top: -37px;
+        margin-left: 35%;
+        z-index: 999;
+    }
+}
+@media(width<450){
+    .uicon{
+        position: absolute;
+        margin-top: -37px;
+        margin-left: 15%;
+        z-index: 999;
+    }
+}
+@media(width<350){
+    .uicon{
+        position: absolute;
+        margin-top: -37px;
+        margin-left: 5%;
+        z-index: 999;
+    }
+}

@@ -1,0 +1,215 @@
+
+.badge1{
+    
+    width: 4%;
+    height: 2%;
+}
+
+.card-image{
+    background-color: white;
+}
+.btn-row{
+    margin-top: 3%;
+}
+
+.first-box{
+    background-color: #E9EAEF;
+    text-align: left; 
+    position: relative;
+}
+
+/* Styles for wrapping the search box */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+  }
+  
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
+
+  .dnone {
+    display: none;
+}
+
+.dblock {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    height: 150px;
+    width: 62px;
+   
+}
+
+.bdg-1 {
+    background-color: #E9EAEF;
+    border: 2px solid #DEE2ED;
+    text-align: left;
+    position: relative;
+    color: #3E538D;
+}
+
+.bluecol {
+    background-color: #203F9A;
+    text-align: left;
+    position: relative;
+    color: white !important;
+    border: 0px;
+    top: 25%;
+    right:12%;
+}
+
+
+.bdg-2 {
+    text-align: left;
+    border: 2px solid rgb(158, 214, 235);
+    position: relative;
+}
+
+.skycol {
+    background-color: #00ADEF !important ;
+    text-align: left;
+    position: relative;
+    color: white !important;
+    border: 0px;
+}
+
+.bdg-3 {
+    text-align: left;
+    border: 2px solid rgb(158, 235, 188);
+    position: relative;
+}
+
+.grncol {
+    background-color: #228C20 !important  ;
+    text-align: left;
+    position: relative;
+    color: white !important;
+    border: 0px;
+}
+
+
+.bdg-4 {
+    background-color: rgb(228, 207, 219);
+    color: rgb(159, 30, 163);
+    text-align: left;
+    border: 2px solid rgb(218, 172, 198);
+    position: relative;
+}
+
+.pinkcol {
+    background-color: #DA0F82 !important  ;
+    text-align: left;
+    position: relative;
+    color: white !important;
+    border: 0px;
+}
+
+.bdg-5 {
+    text-align: left;
+    border: 2px solid rgb(170, 176, 235);
+    position: relative;
+}
+
+.l-bluecol {
+    background-color: #0370D7 !important  ;
+    text-align: left;
+    position: relative;
+    color: white !important;
+    border: 0px;
+}
+
+
+.bdg-6 {
+    background-color: rgb(217, 204, 240);
+    color: rgb(128, 43, 226);
+    text-align: left;
+    border: 2px solid rgb(199, 178, 236);
+    position: relative;
+
+}
+
+.purplecol {
+    background-color: #9966CD !important  ;
+    text-align: left;
+    position: relative;
+    color: white !important;
+    border: 0px;
+}
+
+.maintxt{
+
+}
+
+
+@media only screen and (max-width : 1025px) and (min-width : 768px) {
+    .dblock {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        height: 105px;
+        width: 58px;
+        top: 20%;
+        left: 28%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .dblock {
+        display: none;
+    }
+}
+
+@media(width<768px){
+    .hidious{
+        display: none;
+    }
+    
+    .btnall{
+        display:none;
+    }
+
+    .small{
+        font-size: 13px;
+        padding:2px;
+    }
+
+    .name{
+        display: none;
+    }
+    .img-logo{
+        height:100%;
+        width: 40%;
+    }
+}
+
+@media(width<430px){
+    .small{
+        font-size: 9px;
+    }
+}
+
+@media(width<980px){
+    .txtcard{
+        font-size: 12px;
+    }
+    .txtnum{
+        font-size: 16px;
+    }
+}
+@media(width<850px){
+    .txtcard{
+        font-size: 10px;
+    }
+    .txtnum{
+        font-size: 16px;
+    }
+}

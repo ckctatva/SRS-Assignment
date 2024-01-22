@@ -1,0 +1,54 @@
+/* .box{
+    display: inline-block;
+    border: 1px solid black;
+    outline: red;
+}
+.inp{
+    border: 0;
+    
+}
+
+div:focus-visible {
+    outline: 2px solid blue;
+  } */
+
+  /* .prime{
+    border:0;
+    background-color: white;
+  }
+
+  .inside-btn{
+    
+    border:0 ;
+    background-color: white;
+    
+  }
+
+  div:focus{
+    border: 5px solid red;
+  }
+
+  body{
+    margin: 10px;
+  }
+
+  .remove{
+    outline: none;
+    border: 0;
+  }
+  .eye{
+    padding: 2px;
+  }
+  .btnclass{
+    display: inline-block;
+    border: 1px solid black;
+  }
+
+  .main:focus{
+    border: 2px solid red;
+  } */
+
+  .btnino{
+    /* background-color: ; */
+    border : 1px solid green;
+  }
